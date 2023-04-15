@@ -1,19 +1,36 @@
-Movie Time is a simple movie database build using Next js where movie data are fetched using Tmdb api.
-Technology Used
-1)Next js
-2)Tailwind css
-3)React icons
-4)TMDB API
-Steps to clone the project
-step 1:
+# MovieTime
+
+Movie Time is a simple movie database built using Next.js where movie data is fetched using the TMDB API.
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- React Icons
+- TMDB API
+
+## Clone the Project
+
+To clone the project, follow these steps:
+
+1. Run the following command in your terminal:
+
 git clone https://github.com/sharmaprasid/Movietime.git
-step2:
-install necessary dependencies
-npm i or yarn
-step3:
-create .env file and paste your tmdb api key 
+
+2. Install necessary dependencies:
+npm install or yarn
+
+3. Create a `.env` file and paste your TMDB API key:
+
 API_KEY="your api key"
-step4:
-To start movietime in your localbrowser run
+
+4. To start MovieTime in your local browser, run:
+
 npm run dev
+
+## Live Website
+
+Check out the live website [here](https://movietime-en83dp848-sharmaprasid.vercel.app/).
+
+
 
