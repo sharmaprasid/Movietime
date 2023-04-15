@@ -5,7 +5,11 @@ const Home = async ({ searchParams }) => {
   const genre = searchParams.genre || "trending";
   const res = await fetch(
     `https://api.themoviedb.org/3/${
-      genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
+      genre === "top rated"
+        ? "movie/top_rated"
+        : genre === "release"
+        ? "movie/upcoming"
+        : "trending/all/week"
     }?api_key=${API_KEY}&language=en-US&page=1`,
     { next: { revalidate: 10000 } }
   );
