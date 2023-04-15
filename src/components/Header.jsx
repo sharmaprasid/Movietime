@@ -8,13 +8,13 @@ import DarkMode from "./DarkMode";
 const Header = () => {
   return (
     <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-3  ">
-      <div className="flex items-center    ">
+      <div className="flex items-center ">
         <Link href="/">
           <Image
             src="/logo.svg"
             alt="logo"
-            width={110}
-            height={110}
+            width={160}
+            height={160}
             className="py-1 px-2"
           />
         </Link>
